@@ -8,7 +8,7 @@ import React, {
 class Login extends Component {
 	render() {
 		return (
-			<Text>Hello</Text>
+			<Text style={{color: 'black'}}>Hello</Text>
 		);
 
 	}
