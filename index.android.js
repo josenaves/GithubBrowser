@@ -9,23 +9,15 @@ import React, {
   StyleSheet,
   Text,
   View
-} from 'react-native';
+} from 'react-native'; 
+
+import Login from './Login';
 
 class GithubBrowser extends Component {
   render() {
     var message = 'hello there';
     return (
-      <View style={styles.container}>
-        <Text style={styles.welcome}>
-          {message}        
-        </Text>
-        <Text style={styles.instructions}>
-          To get started, edit index.android.js
-        </Text>
-        <Text style={styles.instructions}>
-          Shake or press menu button for dev menu
-        </Text>
-      </View>
+        <Login/> 
     );
   }
 }
